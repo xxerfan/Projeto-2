@@ -1,416 +1,312 @@
-/* ===================== */
-/*        CABEÇALHO       */
-/* ===================== */
-
-header {
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-    background-color: #F5F3F0;
-    justify-content: center;
-    margin: 0 auto;
-    display: flex; /* Alinha imagem_perfil e apresentacao lado a lado */
-    align-items: center;
-    padding: 0;
-  }
-
-.container {
-    display: flex;
-    align-content: center;
-    justify-content: space-around;
-    width: 1440px;
-    height: 700px;
+header{
+  max-width: 100%;
+  height: auto;
+  background-color: #F5F3F0;
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
 }
 
-.imagem_perfil {
-    margin-top: 180px;
-    margin-left: 168px;
+.container{
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  width: 1440px;
+  height: 700px;
+
+}
+.imagem_perfil{
+  margin-top: 180px;
+  margin-left: 168px;
 }
 
-.imagem_perfil img {
-    align-items: center;
-    width: 358px;
-    height: 358px;
-    border-radius: 100%; /* Deixa a imagem redonda */
+.imagem_perfil img{
+  align-items: center;
+  width: 358px;
+  height: 358px;
+  border-radius: 100%;
 }
 
-.apresentacao {
-    width: 1440px;
-    height: 224px;
-    margin-left: 125px;
-    margin-top: 125px;
+.primeira_impressao{
+  width: 1440px;
+  height: 224px;
+  margin-left: 125px;
+  margin-top: 125px;
+  
+  
 }
 
-.apresentacao h1 {
-    font-weight: 100;
-    font-size: 126px;
-    letter-spacing: -2.17px;
-    line-height: 112px;
+.primeira_impressao h1{
+  font-weight: 100px;
+  font-size: 126px;
+  letter-spacing: -2.17px;
+  line-height: 112px;
+  margin-top: 0;
 }
 
-.apresentacao h3 {
-    font-size: 18px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    line-height: 24px;
+.primeira_impressao h3{
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 24px;
+  letter-spacing: 2px;
+  margin-top: 51px;
+  color: #9E8C6C;
+
 }
-
-.apresentacao a {
-    width: 224px;
-    height: 60px;
-    border: 1px solid #0699A6;
-    background-color: #0699A6;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    padding: 18px 62px;
-}
-
-/* ===================== */
-/*        SEÇÃO PRINCIPAL */
-/* ===================== */
-
-section {
-    display: flex;
-    justify-content: center;
-    max-width: 100%;
-    height: auto;
-}
-
-/* Espaçamento entre blocos da esquerda */
-.habilidades,
-.premiacoes,
-.caracteristicas_profissionais {
-    margin-bottom: 100px;
-}
-
-/* ===================== */
-/*     LISTAS GERAIS     */
-/* ===================== */
-
-ul {
-    list-style: none;       /* Remove marcadores */
-    padding-left: 0;        /* Remove recuo */
-    text-align: left;       /* Alinha texto à esquerda */
-}
-
-ul li {
-    margin: 10px 0;         /* Espaço vertical entre itens */
-}
-
-/* Lista de links em Trabalhos Recentes */
-.lista_de_links {
-    list-style: none;
-    padding-left: 0;
-    text-align: left;
-}
-
-.lista_de_links li {
-    margin: 10px 0;
-}
-
-.lista_de_links a {
-    text-decoration: none;
-    color: #0699A6;
-    font-size: 18px;
-}
-
-.lista_de_links a:hover {
-    text-decoration: underline;
-}
-
-/* Lista com espaçamento maior para Características Profissionais */
-.lista_caracteristicas {
-    list-style: none;
-    padding-left: 0;
-    text-align: left;
-}
-
-.lista_caracteristicas li {
-    margin-bottom: 20px;
-}
-
-/* ===================== */
-/*     COLUNA ESQUERDA   */
-/* ===================== */
-
-.coluna_esquerda {
-    margin-top: 123px;
-    width: 350px;
-    height: 1559px;
-    background-color: #fff;
-}
-
-.coluna_esquerda h3 {
-    color: #9E8C6C;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 34px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-.coluna_esquerda p {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 34px;
-    letter-spacing: 0;
-}
-
-.trabalhos_recentes p {
-    color: #0699A6;
-}
-
-/* ===================== */
-/*     COLUNA DIREITA     */
-/* ===================== */
-
-.coluna_direita {
-    width: 635px;
-    height: auto;
-    margin-top: 123px;
-    margin-left: 138px;
-    background-color: #fff;
-}
-
-.sobre_mim {
-    margin-bottom: 72px;
-    width: 635px;
-    height: 326px;
-}
-
-.coluna_direita p {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 34px;
-}
-
-.barra_destaque {
-    color: #0699A6;
-    background-color: #0699A6;
-    width: 76px;
-    height: 10px;
-    margin-top: 80px;
-}
-
-.coluna_direita h2 {
-    font-size: 36px;
-}
-
-/* ===================== */
-/*     EXPERIÊNCIA        */
-/* ===================== */
-
-.cartao {
-    width: 635px;
-    height: 238px;
-    margin-bottom: 64px;
-}
-
-.cartao p {
-    line-height: 32px;
-}
-
-.detalhes_experiencia {
-    max-width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.detalhes_experiencia h3 {
-    color: #9E8C6C;
-}
-
-/* ===================== */
-/*        RODAPÉ         */
-/* ===================== */
-
-footer {
-    display: flex;
-    align-items: center;
-    max-width: 100%;
-    min-height: 560px;
-    background-color: #F5F3F0;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-.rodape {
-    text-align: center;
-    width: 793px;
-    height: 258px;
-    margin: 0 auto;
-    padding-top: 176px;
-    padding-bottom: 116px;
-}
-
-.rodape h2 {
-    font-weight: 900;
-    font-size: 66px;
-    line-height: 82px;
-}
-
-.rodape h3 {
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 46px;
-    color: #0699A6;
-}
-
-.redes_sociais {
-    width: 244px;
-    height: 24px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-}
-
-
-@media screen and (max-width: 480px) {
-  /* Container principal com padding e largura 100% */
-  .container {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    padding: 0 16px; /* espaçamento horizontal */
-    box-sizing: border-box;
-  }
-
-  /* Cabeçalho: flex column e centralizado */
-  header {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 16px;
-    width: 100%;
-    box-sizing: border-box;
-  }
-
-  .imagem_perfil {
-    margin: 40px 0 20px 0;
-  }
-
-  .imagem_perfil img {
-    width: 180px;
-    height: 180px;
-  }
-
-  /* Apresentação centralizada e responsiva */
-  .conteiner {
-  max-width: 1440px; /* largura fixa do conteúdo */
-  margin: 0 auto;    /* centraliza horizontalmente */
-  padding: 0 16px;   /* espaçamento interno para pequenas telas */
-}
-  .apresentacao {
-    width: 100%;
-    max-width: 360px; /* controla o máximo para não ficar muito largo */
-    height: auto;
-    margin: 0 auto 40px auto;
-    text-align: center;
-  }
-
-  .apresentacao h1 {
-    font-size: 42px;
-    line-height: 48px;
-  }
-
-  .apresentacao h3 {
-    font-size: 14px;
-    line-height: 20px;
-  }
-
-  .apresentacao a {
-  display: inline-block;
-  width: auto;               /* Ajusta à largura do conteúdo */
-  max-width: 100%;           /* Evita estouro da tela */
-  padding: 14px 30px;
-  font-size: 14px;
+.primeira_impressao a{
+  width: 224px;
+  height: 60px;
+  border: 1px solid  #0699A6;
+  background-color: #0699A6;
+  color: white;
+  text-decoration: none;
   text-align: center;
-  margin: 20px auto 0 auto;  /* Centraliza no mobile */
-  cursor: pointer;
+  padding: 18px 62px;
 }
 
-  /* Seção principal em coluna */
-  section {
-    flex-direction: column;
-    align-items: flex-start; /* Alinha conteúdo à esquerda */
-    padding: 0 16px;
-    width: 100%;
-    box-sizing: border-box;
+section{
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  height: auto;
+}
+
+.skill , .awards , .carrer_traits{margin-bottom: 100px;}
+
+.bloco_esquerdo{
+  margin-top: 123px;
+  width: 350px;
+  height: 1559px;
+  background-color: rgb(255, 255, 255);
+}
+
+.bloco_esquerdo h3{
+  color:#9E8C6C;
+  font-weight: 700px;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  
+}
+
+.bloco_esquerdo p{
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 34px;
+  letter-spacing: 0px;
+
+}
+
+.carrer_traits p{
+  line-height: 34px;
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 38px;
+  margin-bottom: 20px;
+
+}
+
+.recent_works p{
+  color: #0699A6;
+}
+
+.bloco_direito{
+  width: 635px;
+  height: auto;
+  margin-top: 123px;
+  margin-left: 138px;
+  background-color: rgb(255, 255, 255);
+}
+
+.about_me {
+  margin-bottom: 72px;
+  width: 635px;
+  height: 326px;
+}
+
+
+.bloco_direito p{
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 34px;
+  
+}
+
+
+.bloquinho{
+  color: #0699A6;
+  background-color: #0699A6;
+  width: 76px;
+  height: 10px;
+  margin-top: 80px;
+}
+
+.bloco_direito h2{
+  font-size: 36px;
+}
+
+.card{
+  width: 635px;
+  height: 238px;
+  margin-bottom: 64px;
+}
+
+.card p{
+  line-height: 32px; 
+}
+
+.text_experience{
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -20px;
+}
+
+.text_experience h3{
+  color: #9E8C6C;
+}
+
+.card p{
+  margin-top: -8px;
+}
+
+.education h2{
+  margin-top: 70px;
+}
+
+.education_tips{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -20px;
+}
+
+.education_tips h3{
+  color: #9E8C6C;
+  
+}
+
+footer{
+  display: flex;
+  align-content: center;
+  max-width: 100%;
+  height: 560px;
+  background-color: #F5F3F0;
+}
+
+.block_footer{
+  text-align: center;
+  width: 793px;
+  height: 258px;
+  margin: 0 auto;
+  padding-top: 158px;
+  padding-bottom: 116px;
+  
+}
+
+.block_footer h2{
+  font-weight: 900px;
+  font-size: 66px;
+  line-height: 82px;
+  
+}
+
+.block_footer h3{
+  font-weight: 900px;
+  font-size: 36px;
+  line-height: 46px;
+  color: #0699A6;
+}
+
+.redes_sociais{
+  width: 244px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1023px){
+
+  .container{
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      height: auto;
   }
 
-  /* Colunas esquerda e direita responsivas */
-  .coluna_esquerda,
-  .coluna_direita {
-    width: 100%;
-    max-width: none;
-    margin: 20px 0;
+  .imagem_perfil{
+      margin: 80px auto;
   }
 
-  /* Cabeçalhos centralizados nas colunas */
-  .coluna_direita h2,
-  .coluna_esquerda h3 {
-    text-align: left; /* alinhado à esquerda, conforme pedido */
+  .imagem_perfil img{
+      width: 280px;
+      height: 280px;
   }
 
-  /* Cartões de experiência responsivos */
-  .cartao {
-    width: 100%;
-    height: auto;
+  .primeira_impressao{
+      width: 100%;
+      height: auto;
+      margin: -48px auto auto;
+      text-align: center;
+      padding-bottom: 100px;
   }
 
-  /* Ajusta o layout interno da experiência para coluna */
-  .detalhes_experiencia {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
+  .primeira_impressao h1{
+      font-size: 80px;
+      line-height: 85px;
   }
 
-  /* Barra de destaque centralizada com margin auto */
-  .barra_destaque {
-    margin: 32px auto;
+  section{
+      align-items: center;
+      flex-direction: column-reverse;
+      padding: 20px;
+      width: 100%;
+      margin: 0 auto;
+      
   }
 
-  /* Rodapé centralizado e com padding */
-  footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 40px 16px;
-    width: 100%;
-    box-sizing: border-box;
-    min-height: auto; /* remove altura fixa */
+  .bloco_esquerdo, .bloco_direito{
+      width: 100%;
+      height: auto;
+      margin: 20px 0;
   }
 
-  .rodape {
-    width: 100%;
-    max-width: 360px;
-    height: auto;
-    margin: 0 auto;
-    padding: 40px 0;
-    text-align: center;
+  .Experience{
+      margin-top: 108px;
   }
 
-  .rodape h2 {
-    font-size: 32px;
-    line-height: 40px;
+
+  .about_me{
+      width: 100%;
   }
 
-  .rodape h3 {
-    font-size: 18px;
-    line-height: 24px;
+  .card{
+      width: 100%;
+      margin-bottom: 100px;
   }
 
-  /* Redes sociais com espaçamento e quebra */
-  .redes_sociais {
-    flex-wrap: wrap;
-    gap: 16px;
-    width: auto;
-    margin-top: 20px;
-    justify-content: center;
+  .bloco_direito{
+      margin-left: 0;
+  }
+
+  .text_experience, .education_tips{
+      flex-direction: column;
+      width: 100%;
+      
+  }
+
+  .block_footer h2{
+      font-size: 50px;
+      line-height: 60px;
+  }
+
+  .block_footer h3{
+      font-size: 28px;
+      line-height: 36px;
   }
 }
