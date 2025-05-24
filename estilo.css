@@ -71,6 +71,10 @@
   height: auto;
   }
   
+.habilidades{
+  margin-top: 38px;
+}
+
   .habilidades,
   .premiacoes,
   .caracteristicas {
@@ -120,6 +124,12 @@
   text-decoration: underline;
   }
   
+  .imagem-preview {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
   .coluna_direita {
   width: 635px;
   height: auto;
@@ -131,7 +141,7 @@
   .sobre_mim {
   margin-bottom: 72px;
   width: 635px;
-  height: 326px;
+  height: auto;
   }
   
   .coluna_direita p {
