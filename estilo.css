@@ -159,10 +159,19 @@
 }
   
  
-  .imagem-preview {
-  width: 100%;
+ .imagem-preview {
+  width: 300px;
   height: auto;
-  object-fit: cover;
+  border-radius: 12px;
+  margin-top: 10px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: block;
+}
+
+.imagem-preview:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.35);
 }
 
   .coluna_direita {
