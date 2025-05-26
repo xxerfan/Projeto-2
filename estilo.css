@@ -374,6 +374,35 @@ footer {
   transform: scale(1.1);
 }
 
+.socialicon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid var(--color-primary);
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.socialicon img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.socialicon:hover {
+  background-color: var(--color-primary);
+  transform: scale(1.05);
+}
+
+.socialicon:hover img {
+  filter: brightness(0) invert(1);
+  transform: scale(1.1);
+}
+
 /* Linha divisória redes sociais → créditos */
 .footer-separator {
   width: 60%;
